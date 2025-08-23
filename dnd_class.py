@@ -1,0 +1,15 @@
+CLASES = [
+    'Artifice',
+    'Bárbaro',
+    'Bardo',
+    'Brujo',
+    'Clérigo',
+    'Druida',
+    'Explorador',
+    'Guerrero',
+    'Hechicero',
+    'Mago',
+    'Monje',
+    'Paladín',
+    'Pícaro',
+]
