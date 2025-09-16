@@ -42,22 +42,5 @@ def main():
 
     print(text)
 
-    # TODO Generar imagen
-    # # Create a new image with white background
-    # image = Image.new(mode='RGB', size=(300, 200), color=(255, 255, 255))
-    # # Create a draw object
-    # draw = ImageDraw.Draw(image)
-    # # Define the font and font size
-    # font = ImageFont.load_default()
-    # # Get the size of the text
-    # text_width, text_height = draw.textsize(text, font=font)
-    # # Calculate the position of the text
-    # x = (image.width - text_width) // 2
-    # y = (image.height - text_height) // 2
-    # # Draw the text on the image
-    # draw.text((x, y), text, fill=(0, 0, 0), font=font)
-    # # Save the image as a file
-    # image.save('output.png')
-
 if __name__ == '__main__':
     main()
