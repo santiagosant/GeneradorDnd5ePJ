@@ -6,3 +6,9 @@ Al ejecutar el scrip se devolvera:
     - Raza
     - Trasfondo
     - Clase
+
+### Proximas implementaciones
+
+1. Subclase a la generacion del PJ.
+2. Genero del PJ (Masc, Feme, otro si corresponde con la raza).
+3. Orientacion sexual (Hetero, Homo, Bi)
