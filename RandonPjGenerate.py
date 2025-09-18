@@ -25,7 +25,9 @@ def _get_3_setStats():
     return list_stats
 
 def _get_clases():
-    return random.choice(CLASES)
+    main_class = random.choice(list(CLASES.keys()))
+    sub_class = random.choice(CLASES[main_class])
+    return main_class, sub_class
 
 def _get_tranfondos():
     return random.choice(TRASFONDOS)
@@ -34,9 +36,11 @@ def _get_raza():
     return random.choice(RAZAS)
 
 def main():
+    main_class, sub_class = _get_clases()
     list_stast = _get_3_setStats()
     text = f"Estadisticas: \n{list_stast[0]} \n{list_stast[1]} \n{list_stast[2]} \n" + \
-    f"Clase: {_get_clases()}\n" + \
+    f"Clase: {main_class}\n" + \
+    f"Sub Clase: {sub_class}\n" + \
     f"Trasfondos: {_get_tranfondos()}\n" + \
     f"Raza: {_get_raza()}"
 
